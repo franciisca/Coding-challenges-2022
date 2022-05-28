@@ -31,3 +31,4 @@ function longest(s1, s2) {
 longest("asjsj", "loklo")
 
 //Works!
+//checked 
