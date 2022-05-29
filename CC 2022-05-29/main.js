@@ -26,3 +26,4 @@ const binaryArrayToNumber = arr => {
 console.log(binaryArrayToNumber([1,0]));
 
 //Works!
+
