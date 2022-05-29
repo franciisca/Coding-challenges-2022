@@ -18,3 +18,11 @@
 // However, the arrays can have varying lengths, not just limited to 4.
 
 
+const binaryArrayToNumber = arr => {
+    let newNumb = arr.join('')
+    return parseInt(newNumb,2)
+}
+
+console.log(binaryArrayToNumber([1,0]));
+
+//Works!
