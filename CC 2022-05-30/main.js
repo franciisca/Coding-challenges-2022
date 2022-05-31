@@ -24,19 +24,9 @@
 //then it checks if age is 55orMore AND the handicap greater than 7  = Senior (if not "Open")
 //(handicaps range from -2 to +26) 
 
-// function openOrSenior([a,b]){
-//     if (a >= 55 && b > 7){
-//         return ["Senior"]
-//     }
-//   }
 
-//   openOrSenior([56,10])
+function openOrSenior(data){
+  return data.map(([age,handicap]) => age >= 55 && handicap > 7 ? 'Senior' : 'Open')
+}
 
-  function openOrSenior(data){
-    
-    if (a >= 55 && b > 7){
-        return ["Senior"]
-    }
-  }
-
-  openOrSenior([56,10])
+//Works!
