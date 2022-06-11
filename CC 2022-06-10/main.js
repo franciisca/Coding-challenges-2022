@@ -24,4 +24,4 @@ function sumTwoMin(arr){
 
 sumTwoMin([20,30,12,3])
 
-//Works!
+//Works! (Checked)
