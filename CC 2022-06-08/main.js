@@ -20,3 +20,4 @@ function smash (words) {
  smash(['hello', 'world', 'this', 'is', 'great'])
 
  //works!
+//look for different answers in code wars 
